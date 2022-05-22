@@ -2,21 +2,7 @@
 
 const LoginForm = () => {
 
-    const LoginForm = () => {
-  const blankFields = {
-    username: "",
-    password: "",
-  };
-  const dispatch = useDispatch();
-  const [formData, setFormData] = useState(blankFields);
-
-  const changeData = (event) => {
-    setFormData({ ...formData, [event.target.id]: event.target.value });
-  };
-  const submitLogin = (event) => {
-    event.preventDefault();
-    dispatch(loginThunk(formData));
-  };
+    
 
   return (
     

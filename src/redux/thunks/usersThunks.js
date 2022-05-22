@@ -1,6 +1,6 @@
 import axios from "axios";
 import jwtDecode from "jwt-decode";
-import { loginActionCreator } from "../userSlice";
+import { loginActionCreator } from "../features/userSlice";
 
 export const loginThunk = (userData) => async (dispatch) => {
   const { data } = await axios.post(
