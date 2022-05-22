@@ -1,3 +1,4 @@
+import { StyleForm } from "./LoginFormStyled";
 
 
 const LoginForm = () => {
@@ -5,7 +6,7 @@ const LoginForm = () => {
     
 
   return (
-    
+      <StyleForm>
       <div className="login-page">
         <div className="form">
           <form className="login-form" autoComplete="off">
@@ -17,7 +18,7 @@ const LoginForm = () => {
           </form>
         </div>
       </div>
-   
+  </StyleForm>
   );
 };
 
